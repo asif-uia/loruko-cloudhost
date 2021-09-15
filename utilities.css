@@ -1,3 +1,11 @@
+/*
+ * @Author: Asif 
+ * @Date: 2021-09-13 23:07:55 
+ * @Last Modified by: Asif
+ * @Last Modified time: 2021-09-14 23:46:54
+ */
+
+/* Container */
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -5,6 +13,7 @@
     padding: 0 40px;
 }
 
+/* Card layout */
 .card {
     background-color: #fff;
     color: var(--base-color);
@@ -52,6 +61,12 @@
     color: #fff;
 }
 
+.bg-light,
+.btn-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
 .bg-primary a,
 .btn-primary a,
 .bg-secondary a,
@@ -59,6 +74,23 @@
 .bg-dark a,
 .btn-dark a {
     color: #fff;
+}
+
+/* Text colorings */
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.text-light {
+    color: var(--light-color);
 }
 
 /* Text sizes */
@@ -86,6 +118,29 @@
     text-align: center;
 }
 
+/* Alert */
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
+}
+
+/* Flexbox layout */
 .flex {
     display: flex;
     justify-content: center;
@@ -93,6 +148,7 @@
     height: 100%;
 }
 
+/* Grid layout */
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /*1fr 1fr;*/
